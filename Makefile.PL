@@ -9,6 +9,7 @@ WriteMakefile(
     AUTHOR       => 'Craig Bourne (cbourne@cpan.org)',
     ABSTRACT     => 'Module abstract (<= 44 characters) goes here',
     PREREQ_PM    => {
+										 'MIDI::Simple'	=> '0.81',
                      'Test::Simple' => 0.44,
                     },
 );
